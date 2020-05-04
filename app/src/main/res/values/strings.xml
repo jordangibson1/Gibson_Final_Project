@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gibson_Final_Project</string>
+    <string name="welcomeMessage">Welcome to the Concert Caravan!</string>
+    <string name="intro">Your premium ticket destination</string>
+    <string name="contact">Contact Us:  </string>
+    <string name="number">1-800-BUY-TIXS</string>
+    <string name="link">Or</string>
+    <string name="clickHere">Click HERE to purchase tickets!</string>
+</resources>
