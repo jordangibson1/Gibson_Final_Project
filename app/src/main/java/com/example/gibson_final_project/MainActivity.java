@@ -1,11 +1,11 @@
 package com.example.gibson_final_project;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public void launchPhone(View view) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:18002898497"));
+        startActivity(intent);
+    }
+
+    public void chooseConcert(View view) {
+        Intent intent = new Intent(this, ConcertSelection.class);
         startActivity(intent);
     }
 }

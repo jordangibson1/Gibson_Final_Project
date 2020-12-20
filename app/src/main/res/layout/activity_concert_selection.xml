@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".ConcertSelection">
+
+    <TextView
+        android:id="@+id/powTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/date"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powerPic"
+        app:layout_constraintTop_toBottomOf="@+id/powArtist" />
+
+    <TextView
+        android:id="@+id/powArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/artist"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powerPic"
+        app:layout_constraintTop_toBottomOf="@+id/sabTicket" />
+
+    <TextView
+        android:id="@+id/powTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/cost"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powerPic"
+        app:layout_constraintTop_toBottomOf="@+id/powTour" />
+
+    <TextView
+        android:id="@+id/sabTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/cost"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabatonPic"
+        app:layout_constraintTop_toBottomOf="@+id/sabTour" />
+
+    <TextView
+        android:id="@+id/sabArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/artist"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabatonPic"
+        app:layout_constraintTop_toBottomOf="@+id/postTicket" />
+
+    <TextView
+        android:id="@+id/sabTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/date"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabatonPic"
+        app:layout_constraintTop_toBottomOf="@+id/sabArtist" />
+
+    <TextView
+        android:id="@+id/marArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/artist"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/maroon5Pic"
+        app:layout_constraintTop_toBottomOf="@+id/concertMessage" />
+
+    <TextView
+        android:id="@+id/postTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/cost"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postPic"
+        app:layout_constraintTop_toBottomOf="@+id/postTour" />
+
+    <TextView
+        android:id="@+id/postArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/artist"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postPic"
+        app:layout_constraintTop_toBottomOf="@+id/marTicket" />
+
+    <TextView
+        android:id="@+id/postTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/date"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postPic"
+        app:layout_constraintTop_toBottomOf="@+id/postArtist" />
+
+    <TextView
+        android:id="@+id/marTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/date"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/maroon5Pic"
+        app:layout_constraintTop_toBottomOf="@+id/marArtist" />
+
+    <TextView
+        android:id="@+id/marTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/cost"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/maroon5Pic"
+        app:layout_constraintTop_toBottomOf="@+id/marTour" />
+
+    <TextView
+        android:id="@+id/concertWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/venue"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/concertMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/concertMessage"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/concertWelcome" />
+
+    <ImageView
+        android:id="@+id/maroon5Pic"
+        android:layout_width="144dp"
+        android:layout_height="134dp"
+        android:onClick="picClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/concertMessage"
+        app:srcCompat="@drawable/maroon5" />
+
+    <ImageView
+        android:id="@+id/postPic"
+        android:layout_width="146dp"
+        android:layout_height="140dp"
+        android:onClick="picClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maroon5Pic"
+        app:srcCompat="@drawable/postmalone" />
+
+    <ImageView
+        android:id="@+id/sabatonPic"
+        android:layout_width="144dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="picClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postPic"
+        app:srcCompat="@drawable/sabaton" />
+
+    <ImageView
+        android:id="@+id/powerPic"
+        android:layout_width="146dp"
+        android:layout_height="145dp"
+        android:onClick="picClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sabatonPic"
+        app:srcCompat="@drawable/powerwolf" />
+
+    <TextView
+        android:id="@+id/maroon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/maroon"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/marArtist"
+        app:layout_constraintTop_toBottomOf="@+id/concertMessage" />
+
+    <TextView
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/post"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postArtist"
+        app:layout_constraintTop_toBottomOf="@+id/marTicket" />
+
+    <TextView
+        android:id="@+id/sabaton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/sabaton"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabArtist"
+        app:layout_constraintTop_toBottomOf="@+id/postTicket" />
+
+    <TextView
+        android:id="@+id/powerwolf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/power"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powArtist"
+        app:layout_constraintTop_toBottomOf="@+id/sabTicket" />
+
+    <TextView
+        android:id="@+id/marDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/september"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/marTour"
+        app:layout_constraintTop_toBottomOf="@+id/maroon5" />
+
+    <TextView
+        android:id="@+id/postDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/may"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postTour"
+        app:layout_constraintTop_toBottomOf="@+id/post" />
+
+    <TextView
+        android:id="@+id/sabDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/july"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabTour"
+        app:layout_constraintTop_toBottomOf="@+id/sabaton" />
+
+    <TextView
+        android:id="@+id/powDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/june"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powTour"
+        app:layout_constraintTop_toBottomOf="@+id/powerwolf" />
+
+    <TextView
+        android:id="@+id/marCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/price3"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/marTicket"
+        app:layout_constraintTop_toBottomOf="@+id/marDate" />
+
+    <TextView
+        android:id="@+id/postCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/price2"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/postTicket"
+        app:layout_constraintTop_toBottomOf="@+id/postDate" />
+
+    <TextView
+        android:id="@+id/sabCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/price4"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sabTicket"
+        app:layout_constraintTop_toBottomOf="@+id/sabDate" />
+
+    <TextView
+        android:id="@+id/powCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/price1"
+        android:onClick="toastClick"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/powTicket"
+        app:layout_constraintTop_toBottomOf="@+id/powDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
